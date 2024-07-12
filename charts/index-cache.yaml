@@ -1,0 +1,33 @@
+apiVersion: v1
+entries:
+  hw-go:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2024-06-13T15:33:24.014279825Z"
+    description: Standard xApp Helm Chart
+    digest: 32eacf96599044d788c663caf48e3fea3a3823a4590e6f5d02bdfc69ff844481
+    name: hw-go
+    urls:
+    - charts/hw-go-1.0.1.tgz
+    version: 1.0.1
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2024-06-28T18:04:56.513732762Z"
+    description: Standard xApp Helm Chart
+    digest: 566576ad9a4e1e7e571ce445771d5d062ae699f502871cb7d340a5bce2ba26eb
+    name: hw-go
+    urls:
+    - charts/hw-go-1.0.0.tgz
+    version: 1.0.0
+  iso-ran:
+  - apiVersion: v1
+    appVersion: "1.0"
+    created: "2024-07-12T15:43:29.67847843Z"
+    description: Standard xApp Helm Chart
+    digest: 0b3656064d414ac571731c052ff87a1b703f830324bb34753142685ff392ceec
+    name: iso-ran
+    urls:
+    - charts/iso-ran-1.0.0.tgz
+    version: 1.0.0
+generated: "2024-07-12T15:43:30Z"
+serverInfo: {}

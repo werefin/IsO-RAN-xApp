@@ -1,5 +1,9 @@
 # O-RAN-SC IsO-RAN xApp in Golang
 
+[hw-go](https://gerrit.o-ran-sc.org/r/admin/repos/ric-app/hw-go) repository from gerrit.
+
+[gist](https://gist.github.com/werefin/f49489677c1e5bc8d92e7a4c37d033e9) repository.
+
 ![rt_before_attack](https://github.com/user-attachments/assets/e04c6d23-1849-46dc-808e-1b4fd94be082)
 
 ![xapp_logs_1](https://github.com/user-attachments/assets/1f2066ba-e558-4da0-bda7-b7cd4af18dd6)
@@ -15,7 +19,3 @@
 ![sceenshot_after_attack_3](https://github.com/user-attachments/assets/33dc67ac-be3c-49f7-b440-db512e593be8)
 
 ![screenshot_after_attack_4](https://github.com/user-attachments/assets/a3bed4ea-bcee-4c19-9e52-783f382134e9)
-
-[hw-go](https://gerrit.o-ran-sc.org/r/admin/repos/ric-app/hw-go) repository from gerrit.
-
-[gist](https://gist.github.com/werefin/f49489677c1e5bc8d92e7a4c37d033e9) repository.

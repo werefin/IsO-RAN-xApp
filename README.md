@@ -17,3 +17,5 @@
 ![screenshot_after_attack_4](https://github.com/user-attachments/assets/a3bed4ea-bcee-4c19-9e52-783f382134e9)
 
 [hw-go](https://gerrit.o-ran-sc.org/r/admin/repos/ric-app/hw-go) repository from gerrit.
+
+[gist](https://gist.github.com/werefin/f49489677c1e5bc8d92e7a4c37d033e9) repository.

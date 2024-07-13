@@ -1,24 +1,5 @@
 # O-RAN-SC IsO-RAN xApp in Golang
 
-This repository contains open-source code for a prototype golang xAPP for near real-time
-RAN Intelligent Controller which makes use of golang Xapp Framework.
-
-This xAPP aims to provide basic implementation of :
-
-1. A1 interfaces interactions
-
-2. Read-write operations into a persistent storage. 
-
-3. xAPP Configuration management
-
-4. RMR Health Check
-
-5. xAPP SDL Check
-
-6. Raising alarms
-
-7. Generating metrics
-
 [rt_before_attack](https://github.com/user-attachments/assets/e04c6d23-1849-46dc-808e-1b4fd94be082)
 
 ![xapp_logs_1](https://github.com/user-attachments/assets/1f2066ba-e558-4da0-bda7-b7cd4af18dd6)
@@ -27,32 +8,13 @@ This xAPP aims to provide basic implementation of :
 
 ![rt_after_attack](https://github.com/user-attachments/assets/146474fe-fd13-4284-a2e3-068ccb33ace2)
 
+![screenshot_after_attack_1](https://github.com/user-attachments/assets/c476b84f-2fdf-4b61-9df0-95a67f835a28)
 
-## Introduction
+![screenshot_after_attack_2](https://github.com/user-attachments/assets/0b640a99-c191-4f6f-8938-56a125dcecd5)
 
-This document provides guidelines on how to install and configure the HW Golang xAPP in various environments/operating modes.
-The audience of this document is assumed to have good knowledge in RIC Platform.
+![sceenshot_after_attack_3](https://github.com/user-attachments/assets/33dc67ac-be3c-49f7-b440-db512e593be8)
 
-
-## Preface
-This xAPP can be run directly as a Linux binary, as a docker image, or in a pod in a Kubernetes environment.  The first
-two can be used for dev testing. The last option is how an xAPP is deployed in the RAN Intelligent Controller environment.
-This covers all three methods. 
-
-1. Docker 
-
-2. Linux Binary
-
-3. Kubernetes 
-
-
-
-## Software Installation and Deployment
-
-### Onboarding of hw-go using dms_cli tool
-
-`dms_cli` offers rich set of command line utility to onboard `hw-go` xapp
-to `chartmuseme`.
+![screenshot_after_attack_4](https://github.com/user-attachments/assets/a3bed4ea-bcee-4c19-9e52-783f382134e9)
 
 First checkout the [hw-go](https://gerrit.o-ran-sc.org/r/admin/repos/ric-app/hw-go) repository from gerrit.
 

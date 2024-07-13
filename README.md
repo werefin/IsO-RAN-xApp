@@ -19,7 +19,13 @@ This xAPP aims to provide basic implementation of :
 
 7. Generating metrics
 
-8. E2 Interface intereactions
+[rt_before_attack](https://github.com/user-attachments/assets/e04c6d23-1849-46dc-808e-1b4fd94be082)
+
+![xapp_logs_1](https://github.com/user-attachments/assets/1f2066ba-e558-4da0-bda7-b7cd4af18dd6)
+
+![xapp_logs_2](https://github.com/user-attachments/assets/5eb4effe-ab6d-4fdd-b882-f8d9431a7353)
+
+![rt_after_attack](https://github.com/user-attachments/assets/146474fe-fd13-4284-a2e3-068ccb33ace2)
 
 
 ## Introduction

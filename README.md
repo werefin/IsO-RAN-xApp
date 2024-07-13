@@ -12,7 +12,7 @@ Now we will see the steps that led to achieving the previously mentioned objecti
 
 ![rt_before_attack](https://github.com/user-attachments/assets/e04c6d23-1849-46dc-808e-1b4fd94be082)
 
-"The attack starts after about 40 seconds, giving the RMR library enough time to initialize. As seen from the xApp logs below, first the `rmr_empty_rt.raw` packet is sent, causing the E2 termination to crash, and immediately after, a DoS attack is launched against the A1 mediator.
+The attack starts after about 40 seconds, giving the RMR library enough time to initialize. As seen from the xApp logs below, first the `rmr_empty_rt.raw` packet is sent, causing the E2 termination to crash, and immediately after, a DoS attack is launched against the A1 mediator.
 
 ![xapp_logs_1](https://github.com/user-attachments/assets/1f2066ba-e558-4da0-bda7-b7cd4af18dd6)
 

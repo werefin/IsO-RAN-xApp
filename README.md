@@ -1,4 +1,4 @@
-# O-RAN-SC Hello World Xapp in Golang
+# O-RAN-SC IsO-RAN xApp in Golang
 
 This repository contains open-source code for a prototype golang xAPP for near real-time
 RAN Intelligent Controller which makes use of golang Xapp Framework.

@@ -1,6 +1,6 @@
 # O-RAN-SC IsO-RAN xApp in Golang
 
-[rt_before_attack](https://github.com/user-attachments/assets/e04c6d23-1849-46dc-808e-1b4fd94be082)
+![rt_before_attack](https://github.com/user-attachments/assets/e04c6d23-1849-46dc-808e-1b4fd94be082)
 
 ![xapp_logs_1](https://github.com/user-attachments/assets/1f2066ba-e558-4da0-bda7-b7cd4af18dd6)
 

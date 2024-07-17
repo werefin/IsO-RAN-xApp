@@ -12,7 +12,7 @@ To understand and execute the attack, please refer to the following [Gist](https
 
 Now we will see the steps that led to achieving the previously mentioned objective. It is essential to specify that we will refer to the **O-RAN SC H-release** version. Initially, we can see the routing table just after deploying the malicious xApp with the insertion of the routes associated with it. Additionally, all the Kubernetes pods associated with `ricplt` are in a running state, and the gNB associated with the E2 node is connected to the RAN (via E2 termination).
 
-![rt_before_attack](https://github.com/user-attachments/assets/e04c6d23-1849-46dc-808e-1b4fd94be082)
+![rt_before_attack](https://github.com/user-attachments/assets/2d41d61d-f057-4943-9f42-cab92af1213a)
 
 The attack starts after about 40 seconds, giving the RMR library enough time to initialize. As seen from the xApp logs below, first the `rmr_empty_rt.raw` packet is sent, causing the E2 termination to crash, and immediately after, a DoS attack is launched against the A1 mediator.
 
@@ -28,7 +28,7 @@ Below we can see the results obtained regarding the crashed Kubernetes pods afte
 
 Indeed, as seen below and as previously specified, the exploit mainly affects the routing table, which theoretically the xApp should not be able to modify. However, due to a lack of authentication, the attack triggers an update of the routing table in which no gNB is connected via E2 termination. The DoS approach towards the A1 is different; in this case, it is not an issue associated with the routing tables being modified towards the A1 mediator, but rather, the component accepts raw packets sent by the xApp, causing a `CrashLoopBackOff` on its Kubernetes pod.
 
-![rt_after_attack](https://github.com/user-attachments/assets/146474fe-fd13-4284-a2e3-068ccb33ace2)
+![rt_after_attack](https://github.com/user-attachments/assets/acad7283-73b6-41a7-adb6-2f80ba75412c)
 
 In conclusion, even when attempting to reconnect the E2 simulator (`kpm_sim`) to the O-RAN, the connection status remains `UNDER_RESET`; this implies that the network is compromised until a new installation of the `ricplt` is performed.
 
